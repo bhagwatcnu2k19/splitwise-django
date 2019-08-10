@@ -1,0 +1,7 @@
+'DATABASE':
+  'ENGINE': 'django.db.backends.mysql'
+  'NAME': 'django_splitwise'
+  'USER': 'aditya2014'
+  'PASSWORD': 'eraserhead'
+  'HOST': 'db1.ey.devfactory.com'   # Or an IP Address that your DB is hosted on
+  'PORT': '3306'
