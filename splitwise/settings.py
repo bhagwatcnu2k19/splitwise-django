@@ -23,7 +23,8 @@ logging.basicConfig(
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-db_config = yaml.load(open('splitwise/config.yaml'))['DATABASE']
+remote_db_config = yaml.load(open('splitwise/config.yaml'))['REMOTE_DATABASE']
+local_db_config = yaml.load(open('splitwise/config.yaml'))['LOCAL_DATABASE']
 
 
 # Quick-start development settings - unsuitable for production
@@ -87,12 +88,12 @@ WSGI_APPLICATION = 'splitwise.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': db_config['ENGINE'],
-        'NAME': db_config['NAME'],
-        'USER': db_config['USER'],
-        'PASSWORD': db_config['PASSWORD'],
-        'HOST': db_config['HOST'],  # Or an IP Address that your DB is hosted on
-        'PORT': db_config['PORT']
+        'ENGINE': local_db_config['ENGINE'],
+        'NAME': local_db_config['NAME'],
+        'USER': local_db_config['USER'],
+        'PASSWORD': local_db_config['PASSWORD'],
+        'HOST': local_db_config['HOST'],  # Or an IP Address that your DB is hosted on
+        'PORT': local_db_config['PORT']
     }
 }
 

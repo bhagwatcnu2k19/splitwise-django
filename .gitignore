@@ -1,2 +1,4 @@
 splitwise/config.yaml
 *.pyc
+*.xml
+*.iml
