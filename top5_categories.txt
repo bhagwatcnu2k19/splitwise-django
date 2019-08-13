@@ -1,0 +1,6 @@
+Top 5 categories are
+{'category_id': 86, 'total': Decimal('608743.00')}
+{'category_id': 220, 'total': Decimal('606746.00')}
+{'category_id': 628, 'total': Decimal('603303.00')}
+{'category_id': 284, 'total': Decimal('603143.00')}
+{'category_id': 158, 'total': Decimal('602110.00')}

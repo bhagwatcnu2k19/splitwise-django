@@ -1,0 +1,111 @@
+Top 5 categories are
+{'category_id': 86, 'total': Decimal('608743.00')}
+{'category_id': 220, 'total': Decimal('606746.00')}
+{'category_id': 628, 'total': Decimal('603303.00')}
+{'category_id': 284, 'total': Decimal('603143.00')}
+{'category_id': 158, 'total': Decimal('602110.00')}
+Top 5 categories are
+{'category_id': 993, 'total': Decimal('1290.00')}
+{'category_id': 54, 'total': Decimal('1266.00')}
+{'category_id': 191, 'total': Decimal('1262.00')}
+{'category_id': 277, 'total': Decimal('1252.00')}
+{'category_id': 301, 'total': Decimal('1251.00')}
+Monthly category-wise expenses for the logged-in user are as follows : 
+Expenses for month number 41is 
+{'category_id': 94, 'total': Decimal('501.00')}
+{'category_id': 77, 'total': Decimal('862.00')}
+{'category_id': 3, 'total': Decimal('467.00')}
+{'category_id': 21, 'total': Decimal('383.00')}
+{'category_id': 835, 'total': Decimal('458.00')}
+{'category_id': 514, 'total': Decimal('589.00')}
+{'category_id': 647, 'total': Decimal('389.00')}
+{'category_id': 769, 'total': Decimal('739.00')}
+{'category_id': 418, 'total': Decimal('317.00')}
+{'category_id': 201, 'total': Decimal('645.00')}
+{'category_id': 688, 'total': Decimal('722.00')}
+{'category_id': 872, 'total': Decimal('487.00')}
+{'category_id': 205, 'total': Decimal('331.00')}
+{'category_id': 489, 'total': Decimal('459.00')}
+Expenses for month number 42is 
+{'category_id': 224, 'total': Decimal('233.00')}
+{'category_id': 487, 'total': Decimal('561.00')}
+{'category_id': 723, 'total': Decimal('358.00')}
+{'category_id': 752, 'total': Decimal('618.00')}
+{'category_id': 258, 'total': Decimal('595.00')}
+{'category_id': 374, 'total': Decimal('275.00')}
+{'category_id': 554, 'total': Decimal('616.00')}
+{'category_id': 204, 'total': Decimal('645.00')}
+{'category_id': 44, 'total': Decimal('317.00')}
+{'category_id': 656, 'total': Decimal('690.00')}
+{'category_id': 712, 'total': Decimal('513.00')}
+{'category_id': 360, 'total': Decimal('508.00')}
+{'category_id': 12, 'total': Decimal('503.00')}
+{'category_id': 143, 'total': Decimal('1044.00')}
+{'category_id': 107, 'total': Decimal('740.00')}
+{'category_id': 808, 'total': Decimal('239.00')}
+{'category_id': 673, 'total': Decimal('706.00')}
+{'category_id': 75, 'total': Decimal('411.00')}
+Expenses for month number 43is 
+{'category_id': 813, 'total': Decimal('243.00')}
+{'category_id': 936, 'total': Decimal('1291.00')}
+{'category_id': 334, 'total': Decimal('270.00')}
+{'category_id': 717, 'total': Decimal('399.00')}
+{'category_id': 387, 'total': Decimal('524.00')}
+{'category_id': 852, 'total': Decimal('505.00')}
+{'category_id': 229, 'total': Decimal('640.00')}
+{'category_id': 177, 'total': Decimal('449.00')}
+{'category_id': 390, 'total': Decimal('732.00')}
+{'category_id': 331, 'total': Decimal('757.00')}
+{'category_id': 351, 'total': Decimal('585.00')}
+{'category_id': 892, 'total': Decimal('782.00')}
+{'category_id': 451, 'total': Decimal('293.00')}
+{'category_id': 519, 'total': Decimal('312.00')}
+{'category_id': 906, 'total': Decimal('659.00')}
+Expenses for month number 44is 
+{'category_id': 217, 'total': Decimal('540.00')}
+{'category_id': 100, 'total': Decimal('329.00')}
+{'category_id': 454, 'total': Decimal('420.00')}
+{'category_id': 59, 'total': Decimal('458.00')}
+{'category_id': 156, 'total': Decimal('670.00')}
+{'category_id': 667, 'total': Decimal('476.00')}
+{'category_id': 699, 'total': Decimal('448.00')}
+{'category_id': 981, 'total': Decimal('812.00')}
+{'category_id': 453, 'total': Decimal('641.00')}
+{'category_id': 185, 'total': Decimal('447.00')}
+Expenses for month number 45is 
+{'category_id': 88, 'total': Decimal('539.00')}
+{'category_id': 485, 'total': Decimal('668.00')}
+{'category_id': 739, 'total': Decimal('547.00')}
+{'category_id': 899, 'total': Decimal('755.00')}
+{'category_id': 310, 'total': Decimal('551.00')}
+{'category_id': 797, 'total': Decimal('397.00')}
+{'category_id': 877, 'total': Decimal('278.00')}
+{'category_id': 299, 'total': Decimal('383.00')}
+Expenses for month number 46is 
+{'category_id': 968, 'total': Decimal('622.00')}
+{'category_id': 657, 'total': Decimal('522.00')}
+{'category_id': 772, 'total': Decimal('432.00')}
+{'category_id': 933, 'total': Decimal('540.00')}
+{'category_id': 514, 'total': Decimal('632.00')}
+{'category_id': 782, 'total': Decimal('659.00')}
+{'category_id': 940, 'total': Decimal('503.00')}
+{'category_id': 946, 'total': Decimal('384.00')}
+{'category_id': 84, 'total': Decimal('429.00')}
+{'category_id': 936, 'total': Decimal('678.00')}
+Expenses for month number 47is 
+{'category_id': 956, 'total': Decimal('276.00')}
+{'category_id': 308, 'total': Decimal('950.00')}
+{'category_id': 839, 'total': Decimal('371.00')}
+{'category_id': 458, 'total': Decimal('1114.00')}
+{'category_id': 228, 'total': Decimal('977.00')}
+{'category_id': 55, 'total': Decimal('737.00')}
+{'category_id': 630, 'total': Decimal('460.00')}
+{'category_id': 38, 'total': Decimal('190.00')}
+{'category_id': 819, 'total': Decimal('303.00')}
+{'category_id': 447, 'total': Decimal('978.00')}
+{'category_id': 417, 'total': Decimal('546.00')}
+{'category_id': 560, 'total': Decimal('587.00')}
+
+
+Top ower has email 'email1234' and total owed amount is 65950.00
+Top lender has 'email402' and total lent amount is 597.00

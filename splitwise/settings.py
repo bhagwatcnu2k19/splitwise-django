@@ -25,6 +25,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 remote_db_config = yaml.load(open('splitwise/config.yaml'))['REMOTE_DATABASE']
 local_db_config = yaml.load(open('splitwise/config.yaml'))['LOCAL_DATABASE']
+aws_config = yaml.load(open('splitwise/config.yaml'))['AWS_CONFIG']
 
 
 # Quick-start development settings - unsuitable for production
@@ -141,3 +142,19 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = '/static/'
+
+
+# CELERY STUFF
+BROKER_URL = 'redis://localhost:6379'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379'
+CELERY_ACCEPT_CONTENT = ['application/json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'Africa/Nairobi'
+
+EMAIL_BACKEND = 'django_ses.SESBackend'
+
+# These are optional -- if they're set as environment variables they won't
+# need to be set here as well
+AWS_ACCESS_KEY_ID = aws_config['AWS_ACCESS_KEY_ID']
+AWS_SECRET_ACCESS_KEY = aws_config['AWS_SECRET_ACCESS_KEY']

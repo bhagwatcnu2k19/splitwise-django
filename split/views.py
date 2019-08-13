@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 import simplejson as json
+from kiner.producer import KinesisProducer
 
 from rest_framework.permissions import AllowAny
 
@@ -10,12 +11,15 @@ from split.models import Category
 from split.serializers import CategorySerializer
 from split.models import Balance
 from split.models import Transaction
+from django.views.decorators.csrf import csrf_exempt
 
+from django.contrib.auth.models import User
+
+from split.tasks import *
 from rest_framework import viewsets
 from django.contrib.auth import login as auth_login
-
+from celery import chord, group
 from django.db.models import Q
-
 from rest_framework import status
 from rest_framework.response import Response
 from django.contrib.auth import authenticate
@@ -218,3 +222,24 @@ def profile(request):
                 "outstanding_amount": lent - owed
             }
         return packResponse(data = data, status=status.HTTP_200_OK)
+
+
+@api_view(('POST',))
+def server_failed(request):
+    logger.debug("entered failure request")
+    p = KinesisProducer('cnu2k19_Aditya.Bhagwat_kinesis', batch_size=500, max_retries=5, threads=10)
+    for i in range(10):
+        p.put_record("500 error in the server. Please check logs for more details")
+    p.close()
+    return packResponse(status=status.HTTP_200_OK)
+
+
+
+@api_view(('GET',))
+def report(request):
+    logged_in_email = ""
+    user_email = '0'
+    reports = chord(group(monthly_category_wise(user_email), top_ower(), top_lender(), top5_categories(), most_active_users()), email_report())
+    #send email here through django ses
+    return packResponse(status = status.HTTP_200_OK, data = reports)
+
